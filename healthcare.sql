@@ -199,4 +199,4 @@ GROUP BY Blood_Type;
 -- Total amount by the insurance provider 
 SELECT Insurance_Provider, round(sum(Billing_Amount),2) as total_amount
 from healthcare_data
-GROUP BY `Insurance_Provider`;
+GROUP BY `Insurance_Provider`; 
